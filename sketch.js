@@ -1,12 +1,4 @@
 function setup() {
-  createCanvas(windowWidth, windowHeight);
-  background(255, 45, 200);
-}
-
-function windowResized() {
-  resizeCanvas(windowWidth, windowHeight);
-}
-function setup() {
   createCanvas(800, 800);
   background(0);
   noStroke();
